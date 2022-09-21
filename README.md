@@ -1,4 +1,4 @@
 # MyProfile
-#IDE->>>vs code
-#Technology Stack
+# IDE->>>vs code
+# Technology Stack
 
