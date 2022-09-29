@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form </title>
+    <style>
+        form {
+            width: fit-content;
+        }
+
+        label {
+            color: black;
+            font-size: large;
+            font-family: ;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"] {
+            color: red;
+            background: bisque;
+            width: 180px;
+            text-transform: capitalize;
+            border-radius: 10px;
+
+        }
+
+        input[type="submit"]:hover {
+            background: burlywood;
+        }
+
+        input[type="Submit"],
+        input[type="Reset"] {
+            color: black;
+            background-color: aqua;
+            border-radius: 20px;
+            height: 20x
+        }
+
+
+        .self td select {
+            color: red;
+            background: bisque;
+            width: 180px;
+            text-transform: capitalize;
+            border-radius: 10px;
+
+        }
+
+        .help textarea {
+            color: red;
+            background: bisque;
+            width: 180px;
+            text-transform: capitalize;
+            border-radius: 10px;
+
+        }
+
+        .name {
+            padding: 20px;
+            margin: 20px;
+            height: 600px;
+            width: 400px;
+            background-color: silver;
+            text-align: left;
+        }
+        h2{
+            color:black;
+            text-shadow:4px 3px 5px darkorange ;
+            
+        }
+    
+    </style>
+
+
+
+</head>
+
+<body>
+    <fieldset class="name">
+    <h2> Student Registration form :</h2>
+    <form>
+        
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <label> Full Name :</label> </td>
+                        <td> <input type="text" placeholder="Enter Full Name"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Email Address:</label></td>
+                        <td><input type="email" placeholder="abc@gmail.com"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Password: </label> </td>
+                        <td> <input type="password" placeholder="password"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> contact Number:</label> </td>
+                        <td> <input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Profile Photo: </label></td>
+                        <td><input type="file"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Date of birth: </label></td>
+                        <td> <input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label> Gender: </label></td>
+                        <td>
+                            <input type="radio" name="gender"> <label> Female </label>
+                            <input type="radio" name="gender"> <label> Male </label>
+                            <input type="radio" name="gender"> <label> Others </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Status: </label></td>
+                        <td>
+                            <input type="radio" name="marital status"> <label>Yes</label>
+                            <input type="radio" name="marital status"> <label>No</label>
+                        </td>
+                    </tr>
+
+
+
+
+                    <tr>
+                        <td>
+                            <table><label> Upload Marksheet:</label></table>
+                        </td>
+                        <td><input type="file" multiple></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td> <label> Known Tools & Technology: </label> </td>
+                        <td>
+                            <input type="checkbox"><label>Angular</label>
+                            <input type="checkbox"><label>React</label>
+                            <input type="checkbox"><label>Python</label>
+                            <input type="checkbox"><label>Java</label>
+                            <input type="checkbox"><label>Jenkin</label>
+                            <input type="checkbox"><label>GIT</label>
+                            <input type="checkbox"><label>Database</label>
+                        </td>
+                    </tr>
+                    <tr class="self">
+                        <td> <label> Profile: </label> </td>
+                        <td>
+                            <select>
+                                <option>UI Developer</option>
+                                <option> Backend Developer</option>
+                                <option> Full Stack Developer</option>
+                                <option> DevOps Engineer</option>
+                                <option> Tester</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Country: </label></td>
+                        <td> <input type="text" value="india" disabled> </td>
+                    </tr>
+
+
+
+
+                    <td> <label> Present Address: </label></td>
+                    <td class="help"> <textarea rows="7" cols="30"> </textarea> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="Submit"> </td>
+                        <td><input type="Reset"> </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+
+</html>
